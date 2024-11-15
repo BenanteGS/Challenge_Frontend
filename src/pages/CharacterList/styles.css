@@ -1,0 +1,98 @@
+/*Estilo da pagina de Lista dos Personagens*/
+
+.input-container {
+    padding: 50px;
+    position: relative;
+    display: inline-block;
+  }
+
+  .input-container input {
+    background-color: #FDECEC;
+    padding: 15px;
+    width: 700px;
+    padding: 10px 40px 10px 40px; 
+    border-radius: 20px; 
+    box-shadow: 3px 3px 10px #e24747;
+    border: transparent;
+  }
+  
+  .input-container .search-icon {
+    position: absolute;
+    left: 60px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 20px; 
+    height: 20px; 
+    pointer-events: none; 
+  }
+
+  body{
+    padding: 20px;
+    text-align: center;
+  }
+
+  .list-container .ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 24px;
+        list-style: none;
+        align-self: center;
+  }
+
+
+  .list-container ul li button{
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    height: 250px;
+    border: 0;
+    background: transparent;
+    border: 0;
+    background: transparent;
+  }
+
+
+  .dados-api ul{
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 24px;
+    list-style: none;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+    width: 100%;
+    align-self: center;
+    object-fit:fill;
+  
+  }
+
+  .list-container ul li img{
+    width: 240px;
+    height: 240px;
+  }
+
+  .list-container ul li div img{
+    width: 20px;
+    align: right;
+    height: 20px;
+    
+  }
+
+  .div-nome{
+    float: left;
+    width: 90%;
+    text-align: left;
+  }
+
+  div coracao{
+    float: right;    
+    text-align: right;
+    width: 10%;
+    min-height: 20px;
+  }
+
+  .api-container .tambnail {
+    width: 240px;
+    cursor: pointer;
+}
